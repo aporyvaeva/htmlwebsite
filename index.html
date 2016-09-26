@@ -6,13 +6,15 @@
 <link rel="stylesheet" href="stylesheet.css" type="text/css" />
     </head>
 <body>
+ <div class="content">
  <header>
  <nav>
     <img src="logo.png" alt="logo"/>
-     <a href="/contact/">Contact</a>
-     <a href="/portfolio/" >Portfolio</a>
-     <a  href="/about/" >About</a>
-     <img align="right" src="alina.png" alt="alina" width="250" height="250"/>
+    
+     <a class = "link" href="/contact/">Contact</a>
+     <a class = "link" href="/portfolio/" >Portfolio</a>
+     <a class = "link" href="/about/" >About</a>
+     <img id = "photoAlina" align="right" src="alina.png" alt="alina" width="250" height="250"/>
 </nav>
 </header>
    <div id="text" align="left">
@@ -20,7 +22,7 @@
       I like architecture,history of art,illustrations and travel.<br>
       If you are interested in my paintings please contact me and I will be happy to help you</p> 
    </div>
-<article align="right"><h4>Porifolio</h4></article>
+<article align="right"><h4 class ="h4">Porifolio</h4></article>
       <section>
         <img class="size" src="portret.jpg" alt="portret" width="250" height="300" title="Portret,2016"/>
         <img class="size" src="building.jpg" alt="building" width="320" height="240" title="Odessa:Otrada,2016"/>
@@ -31,7 +33,7 @@
         <img class="size2" src="stillife3.jpg" alt="stillife3" width="250" height="350" title="Stilllife,2016"/>
         <img class="size2" src="buildingodessa.jpg" alt="buildingodessa" width="250" height="350" title="Building Odessa,2015"/>
       </section>
-<section>
+<section class = "shift">
 <form>
     <article align="center"> <h4>Contact me</h4></article>
     <fieldset>
@@ -52,9 +54,10 @@
 </fieldset>
 </form>
 </section>
+
  <section>
     <form>
-    <article align="center">My contacts</article>
+    <article align="center"><h4>My contacts</h4></article>
      <fieldset>
        <h4>Email:</h4><br>
        <input type="email" name="myemail" id="myemail" size="50" value="alinabezbabnaya@gmail.com" readonly>
@@ -79,5 +82,6 @@
           </fieldset>
              </form>
    </footer>
+   </div>
     </body>
 </html>

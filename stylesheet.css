@@ -32,6 +32,10 @@ article{
   font-variant:small-caps;
   font-size: 30px;
 }
+.h4{
+ width: 10%;
+ margin:30px auto;
+}
 .size{
  padding: 20px;
 }
@@ -55,7 +59,7 @@ article{
       width: auto;
       float: right;
      }
-     input[type=name],input[type=email],input[type=tel],textarea
+     input[type=text],input[type=email],input[type=tel],textarea
 {
     width:40%;
     padding: 8px;
@@ -78,4 +82,22 @@ button[type=button]
 {
  
     cursor: pointer;  
+}
+#photoAlina{
+ position: relative;
+ z-index: 100;
+ float:right;
+ left:350px;
+ top:50px;
+}
+.link{
+ position: relative;
+ text-decoration: none;
+}
+.shift{
+ margin: 30px auto;
+}
+.content{
+ width:70%;
+ margin: 0 auto;
 }
