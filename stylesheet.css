@@ -1,0 +1,81 @@
+ body{
+           background-image: url(backgroundimage.jpg);
+           background-size:cover;
+           background-repeat:no-repeat;
+        }
+ header {
+  display: block;
+  background: #2d6870;
+  padding:20px;
+ }
+ #text
+ {
+  background: white;
+  color:black;
+  padding:50px;
+  opacity: 0.8;
+  border: 1px solid;
+  font-variant:small-caps;
+  font-weight:bold;
+  
+ }
+ a{
+   font-variant:small-caps;
+   font-size: 20px;
+   color:white;
+   padding:2px;20px;
+   margin: 10px 20px;
+   float: right;
+ }
+article{
+ color: 	#2F4F4F;
+  font-variant:small-caps;
+  font-size: 30px;
+}
+.size{
+ padding: 20px;
+}
+.size2{
+ padding: 43px;
+}
+
+ section{
+   background: white;
+  color:black;
+  padding:35px;
+  opacity: 0.9;
+  border: 1px solid;
+ }
+ 
+ fieldset{
+     border-radius:20px;
+     }
+     
+     iframe{
+      width: auto;
+      float: right;
+     }
+     input[type=name],input[type=email],input[type=tel],textarea
+{
+    width:40%;
+    padding: 8px;
+    margin: 5px 0;
+    border: 3px solid #708090;
+    border-radius: 9px;
+}
+     
+     
+ legend{
+    font-size: 25px;
+    font-weight:bold;
+ }
+  .center
+  {
+    margin:0px auto;
+    width: 30%;
+ }
+button[type=button]
+{
+ 
+    cursor: pointer;  
+}
