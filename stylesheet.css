@@ -78,21 +78,18 @@ article{
  }
   .center
   {
-    margin:0px auto;
+    margin:0 auto;
     width: 30%;
+    text-align: center; 
+    
+ 
  }
-button[type=button]
+button[type=submit]
 {
  
     cursor: pointer;  
 }
-#photoAlina{
- position: relative;
- z-index: 100;
- float:right;
- left:350px;
- top:50px;
-}
+
 .link{
  position: relative;
  text-decoration: none;
