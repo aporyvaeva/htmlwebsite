@@ -1,7 +1,7 @@
  body{
            background-image: url(backgroundimage.jpg);
-           background-size:cover;
-           background-repeat:no-repeat;
+           background-size:contain;
+           background-repeat:repeat;
         }
  header {
   display: block;
@@ -23,7 +23,7 @@
    font-variant:small-caps;
    font-size: 20px;
    color:white;
-   padding:2px;20px;
+   padding:2px 20px;
    margin: 10px 20px;
    float: right;
  }
@@ -33,14 +33,17 @@ article{
   font-size: 30px;
 }
 .h4{
- width: 10%;
+ width: 30%;
  margin:30px auto;
+ text-align: center;
 }
 .size{
- padding: 20px;
+ display:block;
+ margin:15px auto 25px;
 }
 .size2{
- padding: 43px;
+ display:block;
+ margin:15px auto 25px;
 }
 
  section{
@@ -101,3 +104,7 @@ button[type=button]
  width:70%;
  margin: 0 auto;
 }
+span{
+    color: red;
+}
+    
