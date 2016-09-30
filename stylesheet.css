@@ -2,7 +2,6 @@
            background-image: url(backgroundimage.jpg);
            background-size:contain;
            background-repeat:repeat-y;
-           
         }
  header {
   display: block;
@@ -21,8 +20,15 @@
   font-weight:bold;
   
  }
- .delimiter{
+ #photoright{
+  position: relative;
   z-index: 100;
+  float: right;
+  top:60px;
+  
+ }
+ 
+ .delimiter{
   font-size: 20px;
   color:white;
   position: relative;
@@ -30,7 +36,7 @@
  }
  nav ul{
   list-style: none;
-  float:right;
+  float: right;
  }
  nav ul li{
   display: inline-block;
@@ -53,17 +59,16 @@ article{
  text-align: center;
 }
 .card {
-    width: 250px;
+    width: 275px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    text-align: center;
 }
+
 .imgblock{
- background:rgba(255,255,255,1) !important;
  position: relative;
  display: block;
- max-width: 60%;
  margin:15px auto 25px;
  z-index: 10;
+ max-width:80%;
 }
 div.imgblock img{
  margin: 0 40px;
