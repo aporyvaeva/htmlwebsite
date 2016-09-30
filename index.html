@@ -3,6 +3,8 @@
     <head>
     <meta charset="utf-8">
 <title>mywebsite </title>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js" type="text/javascript"></script>
+<script type="text/javascript" src="JS.js"></script>
 <link rel="stylesheet" href="stylesheet.css" type="text/css" />
     </head>
 <body>
@@ -10,31 +12,41 @@
  <header>
  <nav>
     <img src="logo.png" alt="logo"/>
-     <a class = "link" href="/contact/">Contact</a>
-     <a class = "link" href="/portfolio/" >Portfolio</a>
-     <a class = "link" href="/about/" >About</a>
+    <ul>
+     <li><a class = "link" href="#about" >About</a></li><span class="delimiter">|</span>
+     <li><a class = "link" href="#portfolio" >Portfolio</a></li><span class="delimiter">|</span>
+     <li><a class = "link" href="#contacts">Contact</a></li>
+    </ul>
 </nav>
 </header>
    <div id="text">
-     <p>Hi!My name is Alina Bezbabnaya and I am a fine artist from Odessa,Ukraine.<br>
+     <p id="about">Hi!My name is Alina Bezbabnaya and I am a fine artist from Odessa,Ukraine.<br>
       I like architecture,history of art,illustrations and travel.<br>
       If you are interested in my paintings please contact me and<br>
       I will be happy to help you</p> 
    </div>
-<article><h4 class ="h4">Porifolio</h4></article>
-      <section>
-        <img class="size" src="portret.jpg" alt="portret" width="250" height="300" title="Portret,2016"/>
-        <img class="size" src="building.jpg" alt="building" width="320" height="240" title="Odessa:Otrada,2016"/>
-        <img class="size" src="stillife.jpg" alt="stillife" width="320" height="240" title="Stillife,2015"/>
-        <img class="size" src="tree.jpg" alt="tree" width="250" height="300" title="Tree sketch,2015"/>
-        <img class="size2" src="buildinglviv.jpg" alt="buildinglviv" width="250" height="350" title="Building Lviv,2015"/>
-        <img class="size2" src="stillife2.jpg" alt="stillife2" width="250" height="350" title="Stilllife2,2015"/>
-        <img class="size2" src="stillife3.jpg" alt="stillife3" width="250" height="350" title="Stilllife,2016"/>
-        <img class="size2" src="buildingodessa.jpg" alt="buildingodessa" width="250" height="350" title="Building Odessa,2015"/>
+<article id="portfolio"><h4 class ="h4">Portfolio</h4></article>
+      <section class="sect">
+       <div class="imgblock">
+        <img class="card" src="portret.jpg" alt="portret" width="250" height="300" title="Portret,2016"/>
+        <img class="card" src="building.jpg" alt="building" width="320" height="240" title="Odessa:Otrada,2016"/>
+        </div>
+        <div class="imgblock">
+        <img class="card" src="stillife.jpg" alt="stillife" width="320" height="240" title="Stillife,2015"/>
+        <img class="card" src="tree.jpg" alt="tree" width="250" height="300" title="Tree sketch,2015"/>
+        </div>
+        <div class="imgblock">
+        <img class="card" src="buildinglviv.jpg" alt="buildinglviv" width="250" height="350" title="Building Lviv,2015"/>
+        <img class="card" src="stillife2.jpg" alt="stillife2" width="250" height="350" title="Stilllife2,2015"/>
+        </div>
+        <div class="imgblock">
+        <img class="card" src="stillife3.jpg" alt="stillife3" width="250" height="350" title="Stilllife,2016"/>
+        <img class="card" src="buildingodessa.jpg" alt="buildingodessa" width="250" height="350" title="Building Odessa,2015"/>
+      </div>
       </section>
 <section class = "shift">
 <form>
-    <article> <h4 class ="h4">Contact me</h4></article>
+    <article id="contacts"> <h4 class ="h4">Contact me</h4></article>
     <fieldset>
      <br>
     <label for="name">Name<span class="required" title="required field">*</span></label> <br>
@@ -69,19 +81,22 @@
  </section>
 <footer>
     
-           <fieldset>
+           
            <div class="center">
-            <form action="http://www.behance.com"></form>
-          <button type="submit" class="center"><img src="behance.png"  width="50" height="50" alt="behance"></button>
-          <form action="http://www.facebook.com"></form>
-          <button type="submit" class="center"><img src="facebook.png"  width="50" height="50" alt="facebook"></button>
-          <form action="http://www.linkin.com"></form>
-          <button type="submit" class="center"><img src="linkin.png"  width="50" height="50" alt="linkin"></button>
+            <ul>
+             <li>
+          <a href = "http://www.behance.com"><img src="behance.png"  width="50" height="50" alt="behance"></a>
+          </li>
+          <li>
+          <a href = "http://www.facebook.com"><img src="facebook.png"  width="50" height="50" alt="facebook"></a>
+          </li>
+          <li>
+          <a href = "http://www.linkin.com"><img src="linkin.png"  width="50" height="50" alt="linkin"></a>
+            </li>
+            </ul>
           </div>
-           </fieldset>
-         
-         
-            
+           
+        
    </footer>
    </div>
     </body>
