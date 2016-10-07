@@ -3,32 +3,45 @@
     <head>
     <meta charset="utf-8">
 <title>mywebsite </title>
+<link href="https://fonts.googleapis.com/css?family=Coming+Soon" rel="stylesheet"/>
+<link rel="stylesheet" href="fond.css" type="text/css" />
+<link rel="stylesheet" href="bootstrap-3.3.7-dist/bootstrap-3.3.7-dist/css/bootstrap.css" type="text/css"/>
+<script src='https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.js'></script>
+<script type="text/javascript" src="bootstrap-3.3.7-dist/bootstrap-3.3.7-dist/js/bootstrap.js"></script>
 <link rel="stylesheet" href="stylesheet.css" type="text/css" />
     </head>
 <body>
- <div class="content">
+ <div class="container col-md-auto col-sm-auto col-lg-auto">
  <header>
- <nav>
-    <img src="logo.png" alt="logo" width="150" hidth="100"/>
-    <ul>
-     <li><a class = "link" href="#about" >About</a></li><span class="delimiter">|</span>
-     <li><a class = "link" href="#portfolio" >Portfolio</a></li><span class="delimiter">|</span>
+ <nav class="navbar-default">
+    <a class="" title="Alina Site" href="index.html"><img src="logo.png" alt="logo" width="150" hidth="100"/></a>
+    <ul class="nav navbar-nav navbar-right collapse navbar-collapse">
+     <li><a class = "link" href="#about" >About</a></li>
+     <li><a class = "link" href="#portfolio" >Portfolio</a></li>
      <li><a class = "link" href="#contacts">Contact</a></li>
     </ul>
-      <img id="photoright" src="alina.png" alt="photoalina" width="200" hidth="200"/>
+    <button type="button" class="navbar-toggle pull-right">
+     <span class="sr-only">toogle navigation</span>
+     <span class="icon-bar"></span>
+     <span class="icon-bar"></span>
+     <span class="icon-bar"></span>
+    </button>
+      
 </nav>
+<img id="photoright" class="hidden-sm hidden-xs" src="alina.png" alt="photoalina" width="200" hidth="200"/>
 </header>
    <div id="text">
-     <p id="about">Hi!My name is Alina Bezbabnaya and I am a fine artist from Odessa,Ukraine.<br>
-      I like architecture,history of art,illustrations and travel.<br>
+     <p id="about">Hi! My name is Alina Bezbabnaya and I am a fine artist from Odessa, Ukraine.<br>
+      I like architecture, history of art, illustrations and travel.<br>
       If you are interested in my paintings please contact me and<br>
       I will be happy to help you</p> 
    </div>
-    <article><h4 class ="h4">Portfolio</h4></article>
-      <section class="sect">
+    
+      <section class="shift">
+       <article class="title"><h4 id="portfolio">Portfolio</h4></article>
         <ul>
          <li><img class="card" src="portret.jpg" alt="portret" width="250" height="300" title="Portret,2016"/></li> 
-          <li><img class="card" src="tree.jpg" alt="tree" width="250" height="300" title="Tree sketch,2015"/></li> 
+         <li><img class="card" src="tree.jpg" alt="tree" width="250" height="300" title="Tree sketch,2015"/></li> 
          <li><img class="card" src="building.jpg" alt="building" width="320" height="240" title="Odessa:Otrada,2016"/></li> 
          <li><img class="card" src="stillife.jpg" alt="stillife" width="320" height="240" title="Stillife,2015"/></li> 
          <li><img class="card" src="buildinglviv.jpg" alt="buildinglviv" width="250" height="350" title="Building Lviv,2015"/></li> 
@@ -39,7 +52,7 @@
       </section>
 <section class = "shift">
 <form>
-    <article> <h4 class ="h4">Contact me</h4></article>
+    <article> <h4 id="contacts" class ="h4">Contact me</h4></article>
     <fieldset>
      <br>
     <label for="name">Name<span class="required" title="required field">*</span></label> <br>
@@ -61,12 +74,12 @@
 
  <section>
     <form>
-    <article><h4 class ="h4">My contacts</h4></article>
+    <article id="about"><h4 class ="h4">My contacts</h4></article>
      <fieldset>
-       <h4>Email:</h4><br>
+       <h3>Email:</h3><br>
        <input type="email" name="myemail" id="myemail" size="50" value="alinabezbabnaya@gmail.com" readonly>
        <br>
-       <h4>Telephone number:</h4><br>
+       <h3>Telephone number:</h3><br>
      <input type="tel" name="mytel" id="tel" size="50" value="+380963134536" readonly>
      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d87952.07058471921!2d30.6645684971498!3d46.458559622974214!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sru!4v1474897663388" width="400" height="300"  style="border:0" allowfullscreen></iframe>
      </fieldset>

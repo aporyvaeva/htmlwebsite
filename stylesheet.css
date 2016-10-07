@@ -1,8 +1,9 @@
+ html{width:100%;}
+ h4{font-size: 32px !important}
  body{
            background-image: url(2.jpg);
            background-size:auto;
            background-repeat:repeat;
-           max-width: 970px;
            margin: 0 auto;
         }
  header {
@@ -10,17 +11,27 @@
   background: #2d6870;
   padding:20px;
  }
+ .navbar-nav>li>a {
+    color:#fff;
+}
+ .navbar-default{
+ 
+  background-color: #2d6870;}
  nav ul{
   list-style: none;
   float:right;
  }
- nav ul li{
+ section>ul{
+  width:100%;
+  margin:0 auto;
+ }
+ nav ul li a{
   display: inline-block;
   border-collapse: collapse;
   margin: 0px 0px;
+  color:#fff !important;
 }
 .link:hover{
- text-decoration: underline;
  line-height: 2px;
  cursor: pointer;
 }
@@ -32,13 +43,6 @@
  color:white;
  text-decoration: none;
  }
-  .delimiter{
-  z-index: 100;
-  font-size: 20px;
-  color:white;
-  position: relative;
-  left:2px;
-  }
  #text
  {
   position:relative;
@@ -55,7 +59,7 @@
   position: relative;
   z-index: 100;
   float: right;
-  bottom:30px;
+  top:-20px;
  }
  
 article{
@@ -73,11 +77,12 @@ article{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     text-align: center;
 }
-.sect{
- display: flex;
- display: -webkit-flex;
- width: 275;
- padding: 50px;
+.title{
+ display: inline-block;
+ width: 100%;
+ text-align: center;
+ margin:10px auto;
+ padding: 0;
 }
 
 section{
@@ -126,9 +131,9 @@ section{
 .shift{
  margin: 30px auto;
 }
-.content{
- width:70%;
+.full{
  margin: 0 auto;
+ width: 80%;
 }
 span{
     color: red;
