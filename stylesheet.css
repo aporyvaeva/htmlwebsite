@@ -1,7 +1,7 @@
  html{width:100%;}
  h4{font-size: 32px !important}
  body{
-           background-image: url(2.jpg);
+           background-image: url(img/2.jpg);
            background-size:auto;
            background-repeat:repeat;
            margin: 0 auto;
@@ -11,20 +11,18 @@
   background: #2d6870;
   padding:20px;
  }
+
  .navbar-nav>li>a {
     color:#fff;
 }
  .navbar-default{
- 
-  background-color: #2d6870;}
+    background-color: #2d6870;
+ }
  nav ul{
   list-style: none;
   float:right;
  }
- section>ul{
-  width:100%;
-  margin:0 auto;
- }
+ 
  nav ul li a{
   display: inline-block;
   border-collapse: collapse;
@@ -35,6 +33,7 @@
  line-height: 2px;
  cursor: pointer;
 }
+
 .link{
  display: block;
  padding: 5px 8px;
@@ -130,10 +129,7 @@ section{
 
 .shift{
  margin: 30px auto;
-}
-.full{
- margin: 0 auto;
- width: 80%;
+
 }
 span{
     color: red;
