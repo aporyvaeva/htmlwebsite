@@ -58,7 +58,14 @@ nav ul li a{
   z-index: 100;
   float: right;
   top:-50px;
+  width: 200px;
+  height: 200px;
  }
+ 
+#logo{
+ width:120px;
+ height: 70px;
+}
  
 .h4{
  width: 30%;
