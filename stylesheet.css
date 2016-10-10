@@ -11,29 +11,23 @@
   background: #2d6870;
   padding:20px;
  }
-
- .navbar-nav>li>a {
-    color:#fff;
-}
+ .glyphicon-chevron-right,.glyphicon-chevron-left{
+  color:white;
+ }
  .navbar-default{
     background-color: #2d6870;
  }
- nav ul{
-  list-style: none;
-  float:right;
- }
  
- nav ul li a{
-  display: inline-block;
-  border-collapse: collapse;
-  margin: 0px 0px;
+nav ul li a{
   color:#fff !important;
 }
-.link:hover{
- line-height: 2px;
- cursor: pointer;
+@media screen and (min-width: 800px) {
+   .link:hover{
+    line-height: 1px;
+    cursor: pointer;
+    padding-bottom: 100px;
+   }
 }
-
 .link{
  display: block;
  padding: 5px 8px;
@@ -42,10 +36,15 @@
  color:white;
  text-decoration: none;
  }
+ 
+ .colorcontact{
+  color:black;
+ }
  #text
  {
   position:relative;
   background: white;
+  font-size:15px;
   color:black;
   opacity: 0.9;
   padding:50px;
@@ -58,21 +57,19 @@
   position: relative;
   z-index: 100;
   float: right;
-  top:-20px;
+  top:-50px;
  }
  
-article{
- color: 	#2F4F4F;
-  font-variant:small-caps;
-  font-size: 30px;
-}
 .h4{
  width: 30%;
  margin:30px auto;
  text-align: center;
+  color: 	#2F4F4F;
+  font-variant:small-caps;
 }
 .card {
     width: 250px;
+    height:350px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     text-align: center;
 }
@@ -129,7 +126,10 @@ section{
 
 .shift{
  margin: 30px auto;
-
+}
+.full{
+ margin: 0 auto;
+ width: 80%;
 }
 span{
     color: red;
