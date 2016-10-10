@@ -29,5 +29,9 @@ if (isMobile.any()) {
    $('.navbar-default').addClass('navbar-fixed-top');
    $('.container').removeClass('container');
    $('#about').css('padding-top','50px');
+   $('#sect ul').css('position','relative');
+   $('#sect ul').css('right','35px');
+   $('#sect ul li').css('margin','2.5px 2.5px 5px 5px');
+   $('#sect').css('padding-right','0');
 }
 });
