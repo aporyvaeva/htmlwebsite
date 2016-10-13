@@ -1,6 +1,8 @@
 /* global $*/
+(function(){
 $(function(){
     $('#submit').click(function(e){
+        if($('#name').val().match(/[A-Z]+/i)&&$('#email').val().match(/^.+@\w+\.\w+$/)){
         e.preventDefault();
         $.ajax({
               url: "https://formspree.io/alinabezbabnaya@gmail.com", 
@@ -14,9 +16,9 @@ $(function(){
     },
     dataType: "json"
         }).done(function(){
-            $('form').html('<h1>Thank you for contanting me!</h1>');
+            $('form').html('<h1>Thank you for contacting me!</h1>');
         }).fail(function(xhr){
             $('body').append('Sorry, error occured'+ xhr.responseText);
         });
-});
-});
+}});
+})})();

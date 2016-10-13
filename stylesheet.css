@@ -144,3 +144,12 @@ span{
 div li{
  display: inline-block;
 }
+.imglist {
+ padding: 0;
+ text-align: center;
+}
+fieldset{
+ text-align: center;
+}
+
+
