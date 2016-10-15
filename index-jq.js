@@ -2,7 +2,7 @@
 (function(){
 $(function(){
     $('#submit').click(function(e){
-        if($('#name').val().match(/[A-Z]+/i)&&$('#email').val().match(/^.+@\w+\.\w+$/)){
+        if($('#name').val().match(/[A-ZА-ЯЁ]+/i)&&$('#email').val().match(/^.+@\w+\.\w+$/i)){
         e.preventDefault();
         $.ajax({
               url: "https://formspree.io/alinabezbabnaya@gmail.com", 
